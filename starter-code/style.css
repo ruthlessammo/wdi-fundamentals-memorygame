@@ -1,20 +1,18 @@
 .board {
-	height: 50%;
+	height: 80%;
 	width: 50%;
 	display: inline-block;
-	float: left;
-	margin: 8%;
 }
 
 .card {
 	height: 200px;
 	width: 150px;
-	border: 1px;
-	background-color: rgb(255,255,0);
+	background-color: rgb(255,255,204);
 	border-radius: 10px;
 	border: 1px solid black;
 	display: inline-block;
-	margin: 40px;
+	margin: 8%;
+	float: left;
 }
 h1 {
 	color: rgb(2, 132, 130);
@@ -54,7 +52,7 @@ footer {
 	text-align: center;
 	clear: both;
 }
-header, h1, h2, p {
+header, h1, h2, h4, p {
 	text-align: center;
 }
 hr {
@@ -62,3 +60,9 @@ hr {
 	height: 1;
 	background-color: #808080;
 }
+img {
+	height: 200px;
+	width: 150px;
+}
+
+
